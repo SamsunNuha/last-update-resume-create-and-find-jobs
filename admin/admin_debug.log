@@ -1,0 +1,15 @@
+2026-02-16 10:11:16 - Login page accessed. Session ID: uilni0ls66cebqo5qf9pvqbu6f
+2026-02-16 10:11:16 - Login attempt for username: admin@gmail.com
+2026-02-16 10:11:16 - User found in DB. ID: 1
+2026-02-16 10:11:16 - Password verified success.
+2026-02-16 10:11:16 - Session set. Redirecting to dashboard.php
+2026-02-16 10:13:02 - Login page accessed. Session ID: uilni0ls66cebqo5qf9pvqbu6f
+2026-02-16 10:13:02 - Login attempt for username: admin@gmail.com
+2026-02-16 10:13:02 - User found in DB. ID: 1
+2026-02-16 10:13:02 - Password verified success.
+2026-02-16 10:13:02 - Session set. Redirecting to dashboard.php
+2026-02-16 10:13:02 - [DASHBOARD] Accessed. Session ID: uilni0ls66cebqo5qf9pvqbu6f
+2026-02-16 10:13:02 - [DASHBOARD] Session admin_id found: 1
+2026-02-16 10:42:31 - Login page accessed. IP: ::1 Session ID: d0alms399a30c1gg5mu0j0is3s
+2026-02-16 10:42:31 - Login page accessed. IP: ::1 Session ID: d0alms399a30c1gg5mu0j0is3s
+2026-02-16 10:46:47 - Login page accessed. IP: ::1 Session ID: 6cf6k963p0gbgrr2du4q916e47
