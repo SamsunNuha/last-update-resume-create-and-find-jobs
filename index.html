@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LankaResumey - Build Your Resume Find Your Dream Job</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css?v=71.1">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="home-page">
+    <div class="mist-container">
+        <div class="mist-blob"></div>
+        <div class="mist-blob"></div>
+        <div class="mist-blob"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container-fluid px-lg-5">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand logo p-0 m-0">
+                    <img src="assets/images/logo_blue.png" alt="LankaResumey" class="logo-img">
+                    <div class="logo-text ms-2">
+                        <span class="logo-name">Lanka<span class="cyan">Resumey</span></span>
+                    </div>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navContent">
+                    <div class="nav-links mx-auto">
+                        <a href="index.html" class="active mx-2">🏠 Home</a>
+                        <a href="user/resume_builder.php" class="mx-2">📄 Resume Builder</a>
+                        <a href="user/jobs.php" class="mx-2">💼 Find Jobs</a>
+                        <a href="user/dashboard.php" class="mx-2">👤 Dashboard</a>
+                    </div>
+
+                    <div class="nav-auth d-flex flex-column flex-lg-row gap-2 mt-3 mt-lg-0">
+                        <a href="login.php" class="nav-btn btn-nav-login">Sign In</a>
+                        <a href="register.php" class="nav-btn btn-nav-register text-nowrap">Get Started</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="hero py-5">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h1 class="display-3 fw-bold mb-4">Build Your Resume <span class="d-block text-white">Find Your
+                            Dream Job</span></h1>
+
+                    <p class="mx-auto fs-5 mb-5 opacity-75 text-light">Create professional A4 resumes, let AI scan your
+                        skills, and get matched with
+                        perfect job opportunities.
+                        Apply with one click.</p>
+
+                    <div class="hero-btns d-flex flex-wrap justify-content-center gap-3 mb-5">
+                        <a href="register.php" class="btn-primary">
+                            Create Your Resume <span>&rarr;</span>
+                        </a>
+                        <a href="user/resume_preview.php?demo=true" class="btn-secondary">
+                            <span>👁️</span> Try Demo
+                        </a>
+                        <a href="user/jobs.php" class="btn-secondary">
+                            <span style="color: #685221;">💼</span> Browse Jobs
+                        </a>
+                    </div>
+
+                    <div class="hero-features d-flex flex-wrap justify-content-center gap-4 mt-5">
+                        <div class="item"><span class="check">✓</span> Free to start</div>
+                        <div class="item"><span class="check">✓</span> PDF Export</div>
+                        <div class="item"><span class="check">✓</span> AI Matching</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Why Choose <span>LankaResumey?</span></h2>
+                <p class="fs-5 opacity-75">We combine modern technology with local industry insights to help you get
+                    hired faster.</p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                <div class="col">
+                    <div class="feature-block h-100 m-0 p-4">
+                        <div class="feature-icon-box mx-auto mb-4">📄</div>
+                        <h3 class="h4 mb-3">Smart Resume Builder</h3>
+                        <p class="opacity-75">Multi-step form with live preview and professionally designed A4
+                            templates.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-block h-100 m-0 p-4">
+                        <div class="feature-icon-box mx-auto mb-4">🧠</div>
+                        <h3 class="h4 mb-3">Intelligent Matching</h3>
+                        <p class="opacity-75">Our algorithm scans your resume and matches you with the best job
+                            opportunities.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="feature-block h-100 m-0 p-4">
+                        <div class="feature-icon-box mx-auto mb-4">🖱️</div>
+                        <h3 class="h4 mb-3">One-Click Apply</h3>
+                        <p class="opacity-75">Apply to multiple jobs instantly using your generated resume.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Fair & Transparent <span
+                        style="color: var(--primary-color);">Pricing</span></h2>
+                <p class="mt-3 fs-5 opacity-75">Choose the plan that fits your career stage. Upgrade or downgrade
+                    at any time.</p>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+                <!-- Free Plan -->
+                <div class="col">
+                    <div class="pricing-card free h-100 d-flex flex-column p-4">
+                        <h3 class="h4 mb-4">Lifetime Free</h3>
+                        <div class="price mb-4">$0<span>/forever</span></div>
+                        <ul class="flex-grow-1 list-unstyled mb-4 text-start">
+                            <li class="mb-2">✓ 1 Active Resume</li>
+                            <li class="mb-2">✓ AI Generation (Limited)</li>
+                            <li class="mb-2">✓ Standard PDF Export</li>
+                            <li class="mb-2">✓ Public Profile Link</li>
+                        </ul>
+                        <a href="register.php" class="btn-pricing gold mt-auto">Active Plan</a>
+                    </div>
+                </div>
+
+                <!-- Popular Plan -->
+                <div class="col">
+                    <div class="pricing-card popular h-100 d-flex flex-column p-4 position-relative">
+                        <div class="popular-badge">POPULAR</div>
+                        <h3 class="h4 mb-4">Pro Monthly</h3>
+                        <div class="price mb-4">$5<span>/month</span></div>
+                        <ul class="flex-grow-1 list-unstyled mb-4 text-start">
+                            <li class="mb-2">✓ Unlimited Resumes</li>
+                            <li class="mb-2">✓ All 6 Premium Templates</li>
+                            <li class="mb-2">✓ Professional Bank Details</li>
+                            <li class="mb-2">✓ Profile Photo Support</li>
+                            <li class="mb-2">✓ ATS Gap Analysis</li>
+                        </ul>
+                        <a href="register.php" class="btn-pricing gold mt-auto">Upgrade Now &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Pro Yearly -->
+                <div class="col">
+                    <div class="pricing-card pro-yearly h-100 d-flex flex-column p-4">
+                        <h3 class="h4 mb-4">Pro Yearly</h3>
+                        <div class="price mb-4">$45<span>/year</span></div>
+                        <ul class="flex-grow-1 list-unstyled mb-4 text-start">
+                            <li class="mb-2">✓ All Pro Monthly Features</li>
+                            <li class="mb-2">✓ <strong>76% Savings</strong> Yearly</li>
+                            <li class="mb-2">✓ Priority Support</li>
+                            <li class="mb-2">✓ Exclusive Future Updates</li>
+                        </ul>
+                        <a href="register.php" class="btn-pricing gold mt-auto">Upgrade & Save &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer py-5 mt-5">
+        <div class="container text-center text-light opacity-75">
+            <p class="mb-2">&copy; 2026 LankaResumey. All rights reserved. Built by Sri Lankan Professionals</p>
+            <p class="mb-4 small">Privacy Policy | Terms of Service</p>
+            <div class="footer-links">
+                <a href="admin/login.php" class="text-info text-decoration-none">Admin Login</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
